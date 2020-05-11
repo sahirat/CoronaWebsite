@@ -1,0 +1,145 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    
+    background-color: rgb(248, 246, 246);
+     
+}
+.navbar-brand img{
+    width: 90px;
+    height: 80px;
+    padding-left:10px;
+    font-family: 'Caveat', cursive;
+   
+}
+.nav-link{
+    font-size: 18px;
+
+}
+ul li{
+    padding: 0 10px;
+}
+ul li a{
+    color: black !important;
+    font-size: 20px;
+    font-weight: 500;
+    float: center;
+    text-align: center;
+}
+   .navbar-brand h1{
+   font-family: 'pacifico', serif;
+
+}
+
+#top{
+    position: sticky;
+    top: 0;
+    z-index: 10; 
+    
+}
+/* #banner{
+ 
+} */
+.navbar-toggler{
+    outline: none !important;
+}
+.cor-img{
+     width: 60px;
+    height: 40px; 
+}
+
+.rightside h1{
+    color:rgb(10, 10, 10);
+    font-size: 3rem;
+     font-family: 'Caveat', cursive;
+     padding-top: 200px;
+     padding-left: 50px;
+     word-spacing: 15px;
+}
+
+@keyframes gocorona
+{
+    0%{
+        transform: rotate(0);
+    }
+    
+     100%{
+        transform: rotate(360deg);
+    }
+}
+.leftside img{
+    animation: heartbeat 2s linear infinite;
+}
+@keyframes heartbeat
+{
+    0%{
+        transform: scale(.75);
+    }
+    20%{
+        transform: scale(1);
+    }
+     40%{
+        transform: scale(.75);
+    }
+    60%{
+        transform: scale(1);
+    }
+     80%{
+        transform: scale(.75);
+    }
+    100%{
+        transform: scale(.75);
+    }
+}
+.sub-section
+{
+    background: rgb(248, 246, 246);
+}
+
+.para{
+    font-size: 2rem;
+     font-family: 'Caveat', cursive;
+     word-spacing: 10px;
+   justify-content: center;
+}
+p{
+  font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+figcaption{
+    font-family: 'EB Garamond', serif;
+        font-size: 20px;
+        justify-content:center;
+          font-weight: 600;
+}
+
+.coronalive{
+
+   word-spacing:10px;
+} 
+.live{
+     color:rgb(10, 10, 10);
+    font-size: 3rem;
+     font-family: 'Caveat', cursive;
+    padding-top: 40px;
+     padding-left: 50px;
+     word-spacing: 15px;
+}
+.live h1{
+     font-family: 'Caveat', cursive;
+}
+.container-fluid{
+    padding-top: 20px;
+}
+.footer p{
+    margin-bottom: 0 !important;
+}
+</style>
